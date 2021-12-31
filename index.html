@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Mamba Ngoyi Gradi !</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css" />
+
+</head>
+<style> 
+
+	body
+	{
+		background: aqua;
+		background-image: url(" tophfond.jpg");
+		margin: 0px;
+		overflow-x: hidden;
+	
+	}
+	.bien
+	{
+		width: 100%;
+		height: 90px;
+		background: black;
+		border: red;
+		color: white;
+		text-align: center;
+
+	}
+	header  
+   {
+
+   	display: flex;
+   	flex-direction: row;
+   	justify-content: space-around;
+   
+   	width: 100%;
+   	height: 100px;
+   	float: right;
+   	background: blue;
+   	text-align: center;
+   	border: 3px solid red;
+
+   	
+   }
+
+   ul li
+   {
+   	display: flex;
+   	margin:5px;
+   		flex-direction: row;
+   	justify-content: space-around;
+   	display:inline-block;
+   	margin-left: 20px;
+   	color: white;
+
+   }
+	.bart
+	{
+		width: 100%;
+		height: 2px;
+		background: white;
+		
+	}
+	.beton
+	{
+		width: 100%;
+		height: 300px;
+		display: flex;
+		margin: 100px;
+	}
+
+	footer
+	{
+		width: 100%;
+		height: 50px;
+	display: flex;
+   flex-direction:row;
+   justify-content:center;
+
+		
+
+	}
+	.mamba
+	{
+		font-family: Trebuchet ms;
+		font-size: 100px;
+		text-align: center;
+		margin-left: 90px;
+	}
+	@media screen and (max-width: 480px )
+	{	
+		body
+		{
+			flex-direction: column;
+
+		}
+		header
+		{
+			display: flex;
+			margin-left: 1px;
+		}
+		.beton
+		{
+			flex-direction: column;
+			width: 200px;
+			
+		}
+		footer
+		{
+			
+			display: flex;
+			flex-direction: column;
+		}
+		}
+
+</style>
+<body>
+	<div class=" bien"> 
+		<h1>Bienvenus dans mon site !</h1>
+
+	</div>
+	<div class=" bart"></div>
+
+	<ul>
+		<a href=" index.html"><li> <h1> Accueil </h1> </li></a>
+		<a href=" app.html"><li> <h1> Apropos</h1> </li></a>
+		<a href=" mamba.pdf"><li> <h1> Cv</h1></a>
+		
+
+	</ul>
+		<div class=" beton"> 
+			<h1 class=" mamba"> Mamba Web site </h1>
+		</div>
+		<footer> 
+<a href=" facebook.com"><img src="fbn.png" alt=""  width="100" /> kerry mamba Mwana Nzambé </a> <a href=""><img src="watsn.png" alt="" width="100" /> +243 975879230</a> 
+
+		</footer>
+</body>
+</html>
